@@ -30,9 +30,10 @@ div.headerWrapper {
 div.infoBox {
 
   width: 90vw;
-  height: 60vh;
+  height: auto;
 
   margin-left: 5vw;
+  margin-top: 5vh
 
 }
 
@@ -56,11 +57,13 @@ div.textBox {
 
   vertical-align: middle;
 
+  text-align: justify;
+
 }
 
 img {
 
-  height: 60%;
+  height: 50%;
 
 }
 
