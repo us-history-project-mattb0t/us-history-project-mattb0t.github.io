@@ -17,6 +17,12 @@ body {
 
 }
 
+div {
+
+  transition-duration: 2s;
+
+}
+
 div.headerWrapper {
 
   width: 92vw;
@@ -61,9 +67,34 @@ div.textBox {
 
 }
 
+div.advertisement {
+
+  width: 89vw;
+  height: auto;
+
+  display: inline-block;
+
+  vertical-align: middle;
+
+  text-align: justify;
+
+  background-color:  #bdc3c7;
+
+}
+
 img {
 
   height: 50%;
+
+}
+
+img.adImage {
+
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 2vh;
 
 }
 
@@ -120,5 +151,28 @@ p.dateText {
 
   text-transform: uppercase;
   text-align: center;
+
+}
+
+p.adHeader {
+
+  color: #0d0d0d;
+
+  font-family: "Playfair Display SC", serif;
+  font-size: 4vh;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+p.adText {
+
+  color: #0d0d0d;
+
+  font-family: "Slabo 27px", serif;
+
+  font-size: 3.33vh
 
 }
